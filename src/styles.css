@@ -1,0 +1,140 @@
+.source-code {
+  max-width: 600px;
+  margin: 30px auto;
+}
+.container {
+  font-size: 18px;
+  max-width: 600px;
+  margin: 30px auto;
+  margin-bottom: 0px;
+  padding: 20px;
+  border-radius: 12px;
+  background-image: radial-gradient(
+    circle,
+    #103e8c,
+    #103e8c,
+    #103e8c,
+    #103e8c,
+    #103e8c,
+    #15418c,
+    #1a438c,
+    #1e468c,
+    #274b8b,
+    #30518a,
+    #395689,
+    #415b88
+  );
+  color: white;
+}
+ul {
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+li:first-letter {
+  text-transform: capitalize;
+}
+#search-city-searchIcon:hover {
+  color:orange;
+}
+
+bi bi-sun {
+}
+
+#day1,
+#day2,
+#day3,
+#day4,
+#day5 {
+  text-align: center;
+  background: #4568a3;
+  max-width: 100px;
+  height: 300px;
+
+  border-radius: 12px;
+  padding: 10px 0;
+  margin: 0 auto;
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 25px;
+}
+#temp-num {
+  font-size: 44px;
+}
+#city-name {
+  font-size: 24px;
+}
+#description-weather {
+  font-size: 18px;
+}
+#date-day,
+#date-num,
+#date-hour {
+  font-size: 13px;
+}
+.RightInf {
+  font-size: 14px;
+  margin-top: 70px;
+}
+.degrees {
+  margin: -10px;
+}
+.horizontalListDay {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.horizontalListDayDescription {
+  margin-top: 20px;
+  min-height: 50px;
+}
+.minTemp {
+  margin-top: 20px;
+  margin-bottom: -15px;
+}
+.maxTemp {
+  margin-top: -15px;
+}
+.line {
+  max-width: 70px;
+  margin-left: 10px;
+}
+#deg {
+  font-size: 30px;
+}
+#caption {
+  margin-top: -10px;
+}
+#icon {
+  margin-top: -20px;
+  margin-left: -20px;
+  background-image: radial-gradient(
+    circle,
+    #e6ecf5,
+    #bccae2,
+    #94a8cf,
+    #6f87bc,
+    #4b67a8,
+    #3a599f,
+    #284b95,
+    #103e8c,
+    #103e8c,
+    #103e8c,
+    #103e8c,
+    #103e8c
+  );
+}
+
+#temp-celsius .active {
+  /*color: white;*/
+  cursor: default;
+}
+
+#c {
+  text-decoration: none;
+}
+#f {
+  text-decoration: none;
+  cursor: default;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <link rel="stylesheet" href="src/styles.css" />
+</head>
+
+<body>
+  <div class="source-code">
+    <div class="container">
+      <form id="search-form">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <button class="btn btn-outline-secondary" type="button" id="search-city-searchIcon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-search"
+                viewBox="0 0 16 16" id="" ;>
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+              </svg>
+            </button>
+          </div>
+
+          <input type="text" class="form-control" id="search-city-form" placeholder="" aria-label=""
+            aria-describedby="basic-addon1" autocomplete="off" />
+        </div>
+      </form>
+
+      <div class="row" id="horizontalList">
+        <div class="col-5">
+          <ul class="leftINF">
+            <li><strong id="city-name"></strong></li>
+            <li class="sunnyTop" id="description-weather"></li>
+            <li class="sunnyTop" id="date-day">Tuesday</li>
+            <li class="date" id="date-num">September 28</li>
+            <li class="date" id="date-hour">11:39 AM</li>
+          </ul>
+        </div>
+        <div class="col-4">
+          <img src="https://icon-library.com/icon/google-weather-icon-20.html.html" id="icon" />
+
+          <figure>
+            <figcaption class="todayImageCaption" id="caption">
+              <span id="temp-num"> </span><sup id="deg"> &deg </sup>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-3">
+          <ul class="RightInf">
+            <li>RealFeel: <span id="feels-like"> </span><sup>°</sup></li>
+            <li>Wind: NE <span id="wind-km"> </span>km/h</li>
+          </ul>
+        </div>
+      </div>
+      <div class="weather-forcast" id="forcast"></div>
+    </div>
+    <p class="source">
+      <a href="https://github.com/srirockstar/FIndweather" target="_blank">Open-source code</a>
+      by Sridevi Gopalakrishna
+    </p>
+  </div>
+  <script src="src/index.js"></script>
+</body>
+
+</html>
